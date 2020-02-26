@@ -199,6 +199,7 @@ header {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -364,4 +365,49 @@ header {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+/*------------------------------------------*/
+/*TESTIMONIALS*/
+/*------------------------------------------*/
+.section-tetsimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(img/back-customers.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+blockquote:before {
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+
+
+cite img {
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
