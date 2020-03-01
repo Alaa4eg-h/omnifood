@@ -14,13 +14,15 @@
 }
 
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555555;
     font-family: 'Lato', 'Arial';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimaizelegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -346,7 +348,6 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
-
 }
 
 .btn-app:link {
@@ -439,6 +440,10 @@ cite img {
     border-bottom: 1px solid #f0f0f0;
 }
 
+.plan-box div:nth-child(2) {
+    padding: 20px 15px;
+}
+
 .plan-box div:first-child {
     background: #fcfcfc;
     border-top-left-radius: 5px;
@@ -467,8 +472,15 @@ cite img {
     font-size: 80%;
 }
 
+
+
 .plan-box ul {
     list-style: none;
+    text-align: left;
+}
+
+.plan-box ul li {
+    margin-bottom: 15px;
 }
 
 /*------------------------------------------*/
